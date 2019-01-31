@@ -1,5 +1,8 @@
 # Bridge Personal Project
 
+## Due Date
+Due by 9am on February 12th
+
 ## Requirements
 
 - Create a login page: a user landing on the page should be able to input a username and submit it.
