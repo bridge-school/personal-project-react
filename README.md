@@ -23,7 +23,8 @@ Your data source is the Github API! You'll be using the events and pull-request 
 The events endpoint will return all the most recent events (or actions) a user has completed. Everything from opening a pull request to forking a repo to starring a repo. All the different types of events are clarified by a type property. E.g. ForkEvent and PullRequestEvent which you can use to get the info you need. The pull request endpoint will give you the information you need to find out the status of a given pull request (whether its open, closed or merged)
 
 **EXAMPLES**
-https://api.github.com/users/pkanal/events
+~https://api.github.com/users/pkanal/events~
+https://api.github.com/users/pkanal/repos
 https://api.github.com/repos/bridge-school/bridgeschool.io/pulls/39
 
 Go to those URLs in your browser to have a look at the JSON response. Its a good idea to copy these as example responses into a file in case you hit the rate limit of the API and that way you can keep on developing.
