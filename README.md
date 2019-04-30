@@ -1,7 +1,7 @@
 # Bridge Personal Project
 
 ## Due Date
-Due by 9am on February 12th
+Due by 9am on May 13th
 
 ## Requirements
 
