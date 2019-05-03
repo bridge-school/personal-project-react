@@ -5,10 +5,10 @@ Due by 9am on May 13th
 
 ## Requirements
 
-- Create a login page: a user landing on the page should be able to input a username and submit it.
+- Create a landing page where a user should be able to input a valid git username and submit it.
 
-- Once the user has logged in, they should be able to see two lists: 
-    - The most recent repositories (repos) that they have forked
+- After submitting the username, two lists should be displayed: 
+    - The most recent repositories (repos) forked by the username provided
     - their most recent pull requests.
 
 - Each of the forked repos should display the name of that repo as a link. When clicked, this should link to the base repo.
@@ -25,6 +25,7 @@ Your data source is the Github API! You'll be using the events and pull-request 
 The events endpoint will return all the most recent events (or actions) a user has completed. Everything from opening a pull request to forking a repo to starring a repo. All the different types of events are clarified by a type property. E.g. ForkEvent and PullRequestEvent which you can use to get the info you need. The pull request endpoint will give you the information you need to find out the status of a given pull request (whether its open, closed or merged)
 
 **EXAMPLES**
+Users: https://api.github.com/users
 Repos: https://api.github.com/users/pkanal/repos
 Pull requests: https://api.github.com/repos/bridge-school/bridgeschool.io/pulls
 
