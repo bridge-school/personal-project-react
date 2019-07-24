@@ -10,9 +10,9 @@ Please note that you do not need to style the application to match this prototyp
 
 ## Requirements
 
-- Create a search form with an input that allows you enter a GitHub username and submit it
+- Create a search form with an input that allows you enter a GitHub username and button to fetch the user information for the inputted GitHub username
 
-- After submitting the form, you should make an API call to fetch the inputted username's information
+- After clicking the search button, you should make an API call to fetch the inputted username's information
 
 - When user information has been returned, hide the form and display the github username with two lists:
     - The most recent repositories (repos) forked by the username provided
