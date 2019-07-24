@@ -10,7 +10,7 @@ Please note that you do not need to style the application to match this prototyp
 
 ## Requirements
 
-- Create a search form that allows you enter a github user name and submit it
+- Create a search form with an input that allows you enter a GitHub username and submit it
 
 - After submitting the form, you should make an API call to fetch the inputted username's information
 
