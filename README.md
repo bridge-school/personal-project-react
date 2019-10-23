@@ -1,7 +1,7 @@
 # Bridge Personal Project
 
 ## Due Date
-Due by 9am on August 12th
+Due by 9am on November 4th 2019
 
 ## Wireframes
 For reference we have created an invision prototype to show you the flow of the react application which can be found here: https://bridgeschool.invisionapp.com/public/share/5GWTMSJMH
@@ -26,7 +26,7 @@ Please note that you do not need to style the application to match this prototyp
      - Display the name of the pull request as a link— when this link is clicked it should take you to that pull request in a new tab
      - Display the current status of the pull request (Open, Merged, Closed). This can be done by colour coding the list item or display the status in words
 
-- We would also recommend giving test driven development (TDD) a try.
+- While we recommend trying Test Driven Development (TDD) and writing tests for all of your components, reducers, and helper functions, we ask that you write at least one component test and one helper function test
 
 ## Data Source
 Your data source is the Github API! You'll be using the user, repos, events, and pull requests endpoints. Using the Github API display:
@@ -67,7 +67,7 @@ Create a new branch called `redux-solution` and port your React only solution to
 **Submissions**
 Once you have completed your personal project we'll provide a Google form for you to submit the link to your repo.
 
-If you have any questions, please reach out on slack on the #help-me or #dev-cohort-8 channel! Happy hacking!
+If you have any questions, please reach out on slack on the #help-me or #dev-cohort-9 channel! Happy hacking!
 
 ## Stretch Goals
 
